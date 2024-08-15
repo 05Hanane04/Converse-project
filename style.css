@@ -20,7 +20,7 @@ main {
   padding: 0px;
   margin: 0px;
   list-style-type: none;
-  background-color: #797979;
+  background-color: #cfcfcf;
 }
 .navbar a {
   color: #fff;
@@ -48,19 +48,25 @@ main {
 #logo {
   width: 20%;
   height: auto;
-  display: block;
+ 
+  
   margin: 0;
   padding: 0;
   top: 0;
+  
 
   margin-top: 1px;
   margin-bottom: 1px;
   border-radius: 40px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   nav {
     position: static;
   }
+  #logo{
+    width: 100%;
+  }
+ 
 }
 
 #title1 {
@@ -97,7 +103,7 @@ h3 {
 #model1 {
   width: 200px;
   height: 200px;
-  border: 3px dashed rgb(12, 36, 64);
+ 
   border-radius: 30px;
 }
 #model1:hover {
@@ -108,7 +114,7 @@ h3 {
 #model2 {
   width: 165px;
   height: 200px;
-  border: 3px dashed rgb(12, 36, 64);
+ 
   border-radius: 30px;
 }
 #model2:hover {
@@ -119,7 +125,7 @@ h3 {
 #model3 {
   width: 200px;
   height: 200px;
-  border: 3px dashed rgb(12, 36, 64);
+ 
   border-radius: 30px;
   margin-left: 30px;
 }
@@ -131,7 +137,7 @@ h3 {
 #model4 {
   width: 200px;
   height: 200px;
-  border: 3px dashed rgb(12, 36, 64);
+ 
   border-radius: 30px;
 }
 #model4:hover {
@@ -142,7 +148,7 @@ h3 {
 #model5 {
   width: 200px;
   height: 200px;
-  border: 3px dashed rgb(12, 36, 64);
+ 
   border-radius: 30px;
 }
 #model5:hover {
@@ -150,7 +156,7 @@ h3 {
   transition: 0.7 ease;
 }
 #model6 {
-  border: 3px dashed rgb(12, 36, 64);
+ 
   border-radius: 30px;
   width: 200px;
   height: 199px;
@@ -160,7 +166,7 @@ h3 {
   transition: 0.7 ease;
 }
 #model7 {
-  border: 3px dashed rgb(12, 36, 64);
+ 
   border-radius: 30px;
   width: 190px;
   height: 190px;
@@ -170,7 +176,7 @@ h3 {
   transition: 0.7 ease;
 }
 #model8 {
-  border: 3px dashed rgb(12, 36, 64);
+ 
   border-radius: 30px;
   width: 190px;
   height: 190px;
@@ -180,7 +186,7 @@ h3 {
   transition: 0.7 ease;
 }
 #model9 {
-  border: 3px dashed rgb(12, 36, 64);
+ 
   border-radius: 30px;
   width: 190px;
   height: 190px;
@@ -190,7 +196,7 @@ h3 {
   transition: 0.7 ease;
 }
 #model10 {
-  border: 3px dashed rgb(12, 36, 64);
+ 
   border-radius: 30px;
   width: 190px;
   height: 190px;
@@ -240,12 +246,12 @@ ol li {
   font-size: 20px;
   font-weight: bold;
   text-decoration: underline;
-  color: rgb(12, 36, 64);
+  color: #000;
 }
 .questions > p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  color: rgb(12, 36, 64);
+  color: #000;
   font-size: 20px;
 }
 #suggest {
@@ -256,8 +262,8 @@ ol li {
 }
 .styles img {
   width: 188px;
-  border: 3.5px solid rgb(35, 30, 30);
-  border-radius: 30px;
+  
+  border-radius: 20px;
 }
 
 .styles {
@@ -277,30 +283,40 @@ ol li {
 }
 #overalls:hover {
   transform: scale(1.1);
+  transition: ease-in;
+  transition-duration: 0.5s;
 }
 #oversized {
   width: 190px;
 }
 #oversized:hover {
   transform: scale(1.1);
+  transition: ease-in;
+  transition-duration: 0.5s;
 }
 #jeans {
   width: 210px;
 }
 #jeans:hover {
   transform: scale(1.1);
+  transition: ease-in;
+  transition-duration: 0.5s;
 }
 #track {
   width: 180px;
 }
 #track:hover {
   transform: scale(1.1);
+  transition: ease-in;
+  transition-duration: 0.5s;
 }
 #leather {
   width: 170px;
 }
 #leather:hover {
   transform: scale(1.1);
+  transition: ease-in;
+  transition-duration: 0.5s;
 }
 #modal-title {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -406,10 +422,10 @@ ol li {
 .bag {
   float: right;
   font-size: 25px;
-  color: rgb(12, 36, 64);
+  color: #000;
 }
 #mysection {
-  background-color: rgb(12, 36, 64);
+  background-color: #000;
 }
 #mysection h2 {
   text-align: center;
@@ -455,12 +471,12 @@ ol li {
 }
 .pagination li a {
   font-size: 20px;
-  background-color: rgb(12, 36, 64);
+  background-color: #000;
   color: #fff;
 }
 .pagination li a:hover {
-  background-color: rgb(239, 246, 255);
-  color: rgb(12, 36, 64);
+  background-color: #fff;
+  color: #000;
 }
 
 .Models_1 img,
