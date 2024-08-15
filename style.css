@@ -20,7 +20,7 @@ main {
   padding: 0px;
   margin: 0px;
   list-style-type: none;
-  background-color: rgb(12, 36, 64);
+  background-color: #000;
 }
 .navbar a {
   color: #fff;
