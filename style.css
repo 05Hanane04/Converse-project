@@ -46,27 +46,19 @@ main {
 }
 
 #logo {
-  width: 20%;
-  height: auto;
- 
-  
-  margin: 0;
-  padding: 0;
-  top: 0;
-  
-
-  margin-top: 1px;
-  margin-bottom: 1px;
+  width: 170px;
   border-radius: 40px;
+  position: fixed;
+  left: 0;
+  top: 0;
 }
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
   nav {
     position: static;
   }
   #logo{
-    width: 100%;
+    width: 50px;
   }
- 
 }
 
 #title1 {
@@ -92,6 +84,7 @@ main {
   margin-top: -688px;
   padding-top: 720px;
 }
+
 h3 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -271,13 +264,11 @@ ol li {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-/*
-  @media screen and (max-width: 800px) {
-    .styles {
-      flex-direction: column;
-      align-items: center;
-    }
-  }*/
+.styles li{
+  margin-left: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 #overalls {
   width: 210px;
 }
@@ -303,7 +294,7 @@ ol li {
   transition-duration: 0.5s;
 }
 #track {
-  width: 180px;
+  width: 185px;
 }
 #track:hover {
   transform: scale(1.1);
@@ -311,7 +302,7 @@ ol li {
   transition-duration: 0.5s;
 }
 #leather {
-  width: 170px;
+  width: 175px;
 }
 #leather:hover {
   transform: scale(1.1);
@@ -390,14 +381,20 @@ ol li {
   margin-top: 85px;
   text-align: center;
   font-size: 30px;
-  text-decoration: underline;
+  
 }
+
 #t-shirts {
   margin-top: 30px;
   margin-bottom: 40px;
   text-align: center;
   font-size: 30px;
-  text-decoration: underline;
+}
+#hoodiesF{
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 30px;
 }
 .Products_2 {
   display: flex;
@@ -421,7 +418,7 @@ ol li {
 }
 .bag {
   float: right;
-  font-size: 25px;
+  font-size: 35px;
   color: #000;
 }
 #mysection {
@@ -521,7 +518,8 @@ ol li {
 #shopIcon:hover{
   transition-duration: 0.9s;
 transition: ease-in-out;
-  color: rgb(177, 0, 0);;
+  color: rgb(177, 0, 0);
+  cursor: pointer;
  
 }
 /*Footer*/
@@ -554,7 +552,7 @@ footer .follow i {
   font-size: 26px;
 }
 footer .follow i:hover {
-  color: black;
+  color: rgb(177, 0, 0);
   transition: ease-in;
   transition-duration: 0.5s;
 }
